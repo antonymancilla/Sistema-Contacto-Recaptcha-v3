@@ -1,0 +1,9 @@
+*.map
+css/bootstrap.css
+css/bootstrap-grid.css 
+css/bootstrap-grid.min.css 
+css/bootstrap-reboot.css 
+css/bootstrap-reboot.min.css
+js/bootstrap.bundle.js
+js/bootstrap.bundle.min.js
+js/bootstrap.js
