@@ -1,20 +1,60 @@
-/* .alto {
-  width: 900px;
-  height: 800px;
-  background-color: brown;
+body {
+  background-image: url("../img/body2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 16px;
 }
-
-.alto h1 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+.alto i {
+  color: white;
+  font-size: 100px;
 }
-
-.alto2 {
-  width: 900px;
-  height: 800px;
-  background-color: royalblue;
+.contacto form .botones {
+  padding-top: 40px;
 }
-
-.alto2 h1 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+.contacto {
+  /*   width: 800px; */
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.1);
 }
- */
+.contacto form input[type="text"] {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 10px 15px;
+  width: 30%;
+  height: 40px;
+  font-size: 16px;
+  color: white;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.contacto form textarea {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  width: 30%;
+  padding: 10px 15px;
+  min-height: 100px;
+  max-height: 120px;
+  font-size: 16px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.contacto form input[type="submit"] {
+  border-radius: 5px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(52, 191, 73, 0.9);
+  padding: 15px 15px;
+  width: 30%;
+  font-size: 16px;
+  color: white;
+}
+.contacto form input[type="submit"]:hover {
+  background-color: rgba(52, 191, 73, 0.8);
+}
+.contacto form input[type="text"]:focus,
+.contacto form textarea {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
